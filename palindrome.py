@@ -32,8 +32,8 @@ class Solution:
             #return type: booleanW
             
             #TODO: Write code below to return a boolean value with the solution to the prompt.
-        if (s == s[::-1] and len(s) > 6):
-            return True
+        return (s == s[::-1] and len(s) > 6)
+         
 
 def main():
     tc1 = Solution()
